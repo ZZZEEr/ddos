@@ -42,5 +42,5 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      print ("已发送 %s 个数据包到 %s 端口 %d"%(sent,ip,port))
-     time.sleep((100000-sd)/2000)
+     time.sleep((100000-sd)/200000)
 
